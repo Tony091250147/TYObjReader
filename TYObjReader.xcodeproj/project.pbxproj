@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		186EB4F419E263E60071BF3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EB4F319E263E60071BF3F /* main.m */; };
 		186EB4F719E263E60071BF3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EB4F619E263E60071BF3F /* AppDelegate.m */; };
-		186EB4FA19E263E60071BF3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EB4F919E263E60071BF3F /* ViewController.m */; };
 		186EB4FD19E263E60071BF3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186EB4FB19E263E60071BF3F /* Main.storyboard */; };
 		186EB4FF19E263E60071BF3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186EB4FE19E263E60071BF3F /* Images.xcassets */; };
 		186EB50219E263E60071BF3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186EB50019E263E60071BF3F /* LaunchScreen.xib */; };
 		186EB50E19E263E60071BF3F /* TYObjReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EB50D19E263E60071BF3F /* TYObjReaderTests.m */; };
+		186EB52219E2644D0071BF3F /* TYObj2OpenGLESConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 186EB51919E2644D0071BF3F /* TYObj2OpenGLESConverter.mm */; };
+		186EB52319E2644D0071BF3F /* TYObjReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 186EB51B19E2644D0071BF3F /* TYObjReader.mm */; };
+		186EB52419E2644D0071BF3F /* TYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EB51D19E2644D0071BF3F /* TYModel.m */; };
+		186EB52619E2644D0071BF3F /* TYModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EB52119E2644D0071BF3F /* TYModelViewController.m */; };
+		186EB52B19E265EC0071BF3F /* Final.obj in Resources */ = {isa = PBXBuildFile; fileRef = 186EB52A19E265EC0071BF3F /* Final.obj */; };
+		186EB53419E26BE10071BF3F /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = 186EB53219E26BE10071BF3F /* cube.obj */; };
+		186EB53519E26BE10071BF3F /* starship.obj in Resources */ = {isa = PBXBuildFile; fileRef = 186EB53319E26BE10071BF3F /* starship.obj */; };
+		186EB53819E26EC60071BF3F /* cube.c in Sources */ = {isa = PBXBuildFile; fileRef = 186EB53619E26EC60071BF3F /* cube.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,26 @@
 		186EB4F319E263E60071BF3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		186EB4F519E263E60071BF3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		186EB4F619E263E60071BF3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		186EB4F819E263E60071BF3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		186EB4F919E263E60071BF3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		186EB4FC19E263E60071BF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		186EB4FE19E263E60071BF3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		186EB50119E263E60071BF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		186EB50719E263E60071BF3F /* TYObjReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYObjReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186EB50C19E263E60071BF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186EB50D19E263E60071BF3F /* TYObjReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYObjReaderTests.m; sourceTree = "<group>"; };
+		186EB51819E2644D0071BF3F /* TYObj2OpenGLESConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYObj2OpenGLESConverter.h; sourceTree = "<group>"; };
+		186EB51919E2644D0071BF3F /* TYObj2OpenGLESConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TYObj2OpenGLESConverter.mm; sourceTree = "<group>"; };
+		186EB51A19E2644D0071BF3F /* TYObjReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYObjReader.h; sourceTree = "<group>"; };
+		186EB51B19E2644D0071BF3F /* TYObjReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TYObjReader.mm; sourceTree = "<group>"; };
+		186EB51C19E2644D0071BF3F /* TYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYModel.h; sourceTree = "<group>"; };
+		186EB51D19E2644D0071BF3F /* TYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYModel.m; sourceTree = "<group>"; };
+		186EB52019E2644D0071BF3F /* TYModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYModelViewController.h; sourceTree = "<group>"; };
+		186EB52119E2644D0071BF3F /* TYModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYModelViewController.m; sourceTree = "<group>"; };
+		186EB52819E264C40071BF3F /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		186EB52A19E265EC0071BF3F /* Final.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Final.obj; sourceTree = "<group>"; };
+		186EB53219E26BE10071BF3F /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		186EB53319E26BE10071BF3F /* starship.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = starship.obj; sourceTree = "<group>"; };
+		186EB53619E26EC60071BF3F /* cube.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cube.c; sourceTree = "<group>"; };
+		186EB53719E26EC60071BF3F /* cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +100,15 @@
 		186EB4F019E263E60071BF3F /* TYObjReader */ = {
 			isa = PBXGroup;
 			children = (
+				186EB53619E26EC60071BF3F /* cube.c */,
+				186EB53719E26EC60071BF3F /* cube.h */,
+				186EB52919E265EC0071BF3F /* Resource */,
+				186EB52819E264C40071BF3F /* SynthesizeSingleton.h */,
+				186EB52019E2644D0071BF3F /* TYModelViewController.h */,
+				186EB52119E2644D0071BF3F /* TYModelViewController.m */,
+				186EB51719E2643E0071BF3F /* Obj2OpenGLESConverter */,
 				186EB4F519E263E60071BF3F /* AppDelegate.h */,
 				186EB4F619E263E60071BF3F /* AppDelegate.m */,
-				186EB4F819E263E60071BF3F /* ViewController.h */,
-				186EB4F919E263E60071BF3F /* ViewController.m */,
 				186EB4FB19E263E60071BF3F /* Main.storyboard */,
 				186EB4FE19E263E60071BF3F /* Images.xcassets */,
 				186EB50019E263E60071BF3F /* LaunchScreen.xib */,
@@ -118,6 +142,29 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		186EB51719E2643E0071BF3F /* Obj2OpenGLESConverter */ = {
+			isa = PBXGroup;
+			children = (
+				186EB51819E2644D0071BF3F /* TYObj2OpenGLESConverter.h */,
+				186EB51919E2644D0071BF3F /* TYObj2OpenGLESConverter.mm */,
+				186EB51A19E2644D0071BF3F /* TYObjReader.h */,
+				186EB51B19E2644D0071BF3F /* TYObjReader.mm */,
+				186EB51C19E2644D0071BF3F /* TYModel.h */,
+				186EB51D19E2644D0071BF3F /* TYModel.m */,
+			);
+			name = Obj2OpenGLESConverter;
+			sourceTree = "<group>";
+		};
+		186EB52919E265EC0071BF3F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				186EB53219E26BE10071BF3F /* cube.obj */,
+				186EB53319E26BE10071BF3F /* starship.obj */,
+				186EB52A19E265EC0071BF3F /* Final.obj */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -199,6 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186EB52B19E265EC0071BF3F /* Final.obj in Resources */,
+				186EB53519E26BE10071BF3F /* starship.obj in Resources */,
+				186EB53419E26BE10071BF3F /* cube.obj in Resources */,
 				186EB4FD19E263E60071BF3F /* Main.storyboard in Resources */,
 				186EB50219E263E60071BF3F /* LaunchScreen.xib in Resources */,
 				186EB4FF19E263E60071BF3F /* Images.xcassets in Resources */,
@@ -219,9 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186EB4FA19E263E60071BF3F /* ViewController.m in Sources */,
+				186EB52319E2644D0071BF3F /* TYObjReader.mm in Sources */,
+				186EB52219E2644D0071BF3F /* TYObj2OpenGLESConverter.mm in Sources */,
 				186EB4F719E263E60071BF3F /* AppDelegate.m in Sources */,
+				186EB53819E26EC60071BF3F /* cube.c in Sources */,
+				186EB52419E2644D0071BF3F /* TYModel.m in Sources */,
 				186EB4F419E263E60071BF3F /* main.m in Sources */,
+				186EB52619E2644D0071BF3F /* TYModelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
